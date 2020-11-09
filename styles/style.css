@@ -9,14 +9,31 @@ body{
 footer{
     text-align: center;
     font-weight: 900;
+    letter-spacing: 2px;
+    padding: 1%;
 }
 
-table{
-    border: 1px solid black;
-    width: 80%;
-    height: 50vh;
+h1{
+    letter-spacing: 2px;
+    font-size: 3.5em;
 }
 
-td{
-    border: 1px solid black;
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.display{
+    background-color: #222f3e;
+    width: 50%;
+    height: 10vh;
+  
+}
+
+.display span {
+    width: 100%;
+    font-size: 5em;
+    text-align: right;
+    color: #c8d6e5;
 }
