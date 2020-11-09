@@ -22,20 +22,28 @@ h1{
     width: 50%;
     height: 10vh;
     text-align: right;
-  
 }
 
 .display span {
     width: 100%;
-    font-size: 5em;
+    font-size: 4.3vw;
     text-align: right;
     color: #c8d6e5;
     padding: 1%;
 }
 
 .buttons{
+    margin-left: 25%;
+    width: 50%;
     background-color: crimson;
     height: 50vh;
+}
+
+button{
+    height: 15%;
+    width: 15%;
+    font-size: 2em;
+    margin: 10px;
 }
 
 footer{
