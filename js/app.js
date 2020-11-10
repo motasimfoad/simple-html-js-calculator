@@ -1,6 +1,7 @@
 var display_value = "";
 var display_string;
 var splited_string;
+var result;
 
 window.onload = function (){
    var year = new Date().getFullYear();
@@ -41,6 +42,9 @@ function string_to_array(){
 }
 
 function solve(){
-  string_to_array();
-  console.log(eval(display_string));
+   //   string_to_array();
+   result = eval(display_string);
+   if (result!=undefined) {
+      document.getElementById("display_number").innerHTML=result;
+   }
 }
