@@ -17,7 +17,7 @@ h1{
 }
 
 .display{
-    margin-left: 25%;
+    margin-left: 37%;
     background-color: #222f3e;
     width: 25%;
     height: 10vh;
@@ -33,9 +33,9 @@ h1{
 }
 
 .buttons{
-    margin-left: 25%;
+    margin-left: 37%;
     width: 25%;
-    background-color: crimson;
+    background-color: #576574;
     height: 50vh;
 }
 
@@ -44,7 +44,26 @@ button{
     width: 15%;
     font-size: 2em;
     margin: 10px;
+    
     font-family: 'Big Shoulders Stencil Display', cursive;
+}
+
+.equals{
+    background-color: #ff9f43;
+    width: 35%;
+}
+
+.clear{
+    background-color: #ff6b6b;
+}
+
+.numbers{
+    background-color: #222f3e;
+    color: #c8d6e5;
+}
+
+.basic_oparators{
+    background-color: #10ac84;
 }
 
 footer{
