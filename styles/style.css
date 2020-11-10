@@ -43,21 +43,24 @@ button{
     height: 15%;
     width: 15%;
     font-size: 2em;
+    font-weight: 500;
     margin: 10px;
     border: none;
     border-radius: 10%;
     outline:none;
-    background-color: #c8d6e5;
+    background-color: #8395a7;
+    color: #fff;
     font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 .equals{
     background-color: #ff9f43;
     width: 35%;
+    color: #fff;
 }
 
 .clear{
-    background-color: #ff6b6b;
+    background-color: #ee5253;
     color: #fff;
 }
 
@@ -76,7 +79,4 @@ footer{
     font-weight: 900;
     letter-spacing: 2px;
     padding: 1%;
-    bottom: 0;
-    left: 0;
-    position: relative; 
 }
