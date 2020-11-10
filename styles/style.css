@@ -19,7 +19,7 @@ h1{
 .display{
     margin-left: 25%;
     background-color: #222f3e;
-    width: 50%;
+    width: 25%;
     height: 10vh;
     text-align: right;
 }
@@ -34,7 +34,7 @@ h1{
 
 .buttons{
     margin-left: 25%;
-    width: 50%;
+    width: 25%;
     background-color: crimson;
     height: 50vh;
 }
@@ -44,6 +44,7 @@ button{
     width: 15%;
     font-size: 2em;
     margin: 10px;
+    font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
 footer{
