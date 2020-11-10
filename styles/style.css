@@ -51,6 +51,7 @@ button{
     background-color: #8395a7;
     color: #fff;
     font-family: 'Big Shoulders Stencil Display', cursive;
+    cursor: pointer;
 }
 
 .extra_operator:hover{
