@@ -53,10 +53,18 @@ button{
     font-family: 'Big Shoulders Stencil Display', cursive;
 }
 
+.extra_operator:hover{
+    background-color: #222f3e;
+}
+
 .equals{
     background-color: #ff9f43;
     width: 35%;
     color: #fff;
+}
+
+.equals:hover{
+    background-color: #feca57;
 }
 
 .clear{
@@ -64,14 +72,35 @@ button{
     color: #fff;
 }
 
+.clear:hover{
+    background-color: #ff6b6b;
+}
+
 .numbers{
     background-color: #222f3e;
     color: #c8d6e5;
 }
 
+.numbers:hover{
+    background-color: #8395a7;
+}
+
+.trigonometrics{
+    background-color: #341f97;
+    color: #fff;
+}
+
+.trigonometrics:hover{
+    background-color: #5f27cd;
+}
+
 .basic_oparators{
     background-color: #10ac84;
     color: #fff;
+}
+
+.basic_oparators:hover{
+    background-color: #1dd1a1;
 }
 
 footer{
