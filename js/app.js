@@ -9,7 +9,8 @@ window.onload = function (){
 function display(data){
       display_value = data; 
       document.getElementById("display_number").innerHTML+=display_value;
-      
+      var dummy = dummy+data+"";  
+       console.log(dummy);
 };
 
 function clr(){
