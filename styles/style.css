@@ -20,8 +20,10 @@ h1{
     margin-left: 37%;
     background-color: #222f3e;
     width: 25%;
-    height: 10vh;
+    height: 12vh;
     text-align: right;
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 
 .display span {
@@ -35,9 +37,12 @@ h1{
 .buttons{
     margin-left: 37%;
     width: 25%;
-    min-width: 25%;
     background-color: #576574;
     max-height: inherit;
+}
+
+.buttons_inside_wrapper{
+   margin-left: 3%;
 }
 
 button{

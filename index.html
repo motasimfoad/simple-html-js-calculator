@@ -19,37 +19,37 @@
                     </span>
                 </div>
                 <div class="buttons">
-                    <button class="basic_oparators" onclick="display('+')">&plus;</button>
-                    <button class="basic_oparators" onclick="display('-')">&minus;</button>
-                    <button class="basic_oparators" onclick="display('*')">&ast;</button>
-                    <button class="basic_oparators" onclick="display('/')">&sol;</button>
-                    <button class="clear" onclick="clr()">AC</button>
-                    <button class="numbers" onclick="display(1)">1</button>
-                    <button class="numbers" onclick="display(2)">2</button>
-                    <button class="numbers" onclick="display(3)">3</button>
-                    <button class="extra_operator">&pi;</button>
-                    <button class="extra_operator">&Sqrt;</button>
-                    <button class="numbers" onclick="display(4)">4</button>
-                    <button class="numbers" onclick="display(5)">5</button>
-                    <button class="numbers" onclick="display(6)">6</button>
-                    <button class="extra_operator">Ex</button>
-                    <button class="extra_operator">log</button>
-                    <button class="numbers" class="numbers" onclick="display(7)">7</button>
-                    <button class="numbers" class="numbers" onclick="display(8)">8</button>
-                    <button class="numbers" class="numbers" onclick="display(9)">9</button>
-                    <button class="trigonometrics" onclick="display('sin')">sin</button>
-                    
-                    <button class="extra_operator" onclick="display('%')">%</button>
-                    <button class="numbers" class="numbers" onclick="display(0)">0</button>
-                    <button class="numbers" class="numbers" onclick="display('.')">.</button>
-                    <button class="numbers" class="numbers" onclick="display('(')">(</button>
-                    <button class="numbers" class="numbers" onclick="display(')')">)</button>
-                    <button class="trigonometrics" onclick="display('cos')">cos</button>
-                    <button class="trigonometrics" onclick="display('tan')">tan</button>
-                    <button class="backspace" onclick="backspace('tan')">&#x2408;</button>
-                    <button class="equals" onclick="solve()">&equals;</button>
+                    <div class="buttons_inside_wrapper">
+                        <button class="basic_oparators" onclick="display('+')">&plus;</button>
+                        <button class="basic_oparators" onclick="display('-')">&minus;</button>
+                        <button class="basic_oparators" onclick="display('*')">&ast;</button>
+                        <button class="basic_oparators" onclick="display('/')">&sol;</button>
+                        <button class="numbers" onclick="display(1)">1</button>
+                        <button class="numbers" onclick="display(2)">2</button>
+                        <button class="numbers" onclick="display(3)">3</button>
+                        <button class="numbers" onclick="display(4)">4</button>
+                        <button class="numbers" onclick="display(5)">5</button>
+                        <button class="numbers" onclick="display(6)">6</button>
+                        <button class="numbers" onclick="display(7)">7</button>
+                        <button class="numbers" onclick="display(8)">8</button>
+                        <button class="numbers" onclick="display(9)">9</button>
+                        <button class="numbers" onclick="display(0)">0</button>
+                        <button class="numbers" onclick="display('.')">.</button>
+                        <button class="numbers" onclick="display('(')">(</button>
+                        <button class="numbers" onclick="display(')')">)</button>
+                        <button class="extra_operator">&pi;</button>
+                        <button class="extra_operator">&Sqrt;</button>
+                        <button class="extra_operator">Ex</button>
+                        <button class="extra_operator">log</button>
+                        <button class="extra_operator" onclick="display('%')">%</button>
+                        <button class="clear" onclick="clr()">AC</button>
+                        <button class="backspace" onclick="backspace('tan')"> <= </button>
+                        <button class="trigonometrics" onclick="display('Math.sin(')">sin</button>
+                        <button class="trigonometrics" onclick="display('Math.cos(')">cos</button>
+                        <button class="trigonometrics" onclick="display('Math.tan(')">tan</button>
+                        <button class="equals" onclick="solve()">&equals;</button>
+                    </div>
                 </div>
-
             </div>
             <footer>
                 &copy; <a href="https://motasimfoad.com"><span id="footer_year"></span> Motasim Foad</a>

@@ -14,7 +14,7 @@ function display(data){
       display_value = data; 
       if (flag==false) {
          document.getElementById("display_number").innerHTML+=display_value;
-         display_string = document.getElementById("display_number").innerText;  
+         display_string = document.getElementById("display_number").innerText; 
       }
       else{
          document.getElementById("display_number").innerHTML = display_value;
