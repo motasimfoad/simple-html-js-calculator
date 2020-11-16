@@ -36,8 +36,15 @@ function backspace() {
 }
 
 function solve(){
-   result = eval(display_string);
-   if (result!=undefined) {
-      document.getElementById("display_number").innerHTML=result;
+   try {
+      result = eval(display_string);
+      if (result!=undefined) {
+         document.getElementById("display_number").innerHTML=result;
+      }
+   } catch (error) {
+      document.getElementById("display_number").innerHTML="Syntax Error!!";
    }
+  
+      
+   
 }
