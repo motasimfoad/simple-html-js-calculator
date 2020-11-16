@@ -24,6 +24,8 @@ h1{
     text-align: right;
     overflow-x: auto;
     overflow-y: hidden;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
 }
 
 .display span {
