@@ -3,6 +3,7 @@ var display_string;
 var splited_string;
 var result;
 var flag = false;
+var dummyVar = "";
 
 window.onload = function (){
    var year = new Date().getFullYear();
@@ -13,14 +14,30 @@ window.onload = function (){
 function display(data){
       display_value = data; 
       if (flag==false) {
+        
          document.getElementById("display_number").innerHTML+=display_value;
-         display_string = document.getElementById("display_number").innerText; 
+         display_string = document.getElementById("display_number").innerText;
       }
       else{
          document.getElementById("display_number").innerHTML = display_value;
          display_string = document.getElementById("display_number").innerText;
          flag = false; 
       }
+};
+
+function dummy(a) {
+   switch (a) {
+      case "Math.PI":
+         console.log('pi');
+         break;
+      
+      case 'Math.sqrt(':
+         console.log('root');
+         break;
+   
+      default:
+        console.log(a);
+   }
 };
 
 function clr(){
@@ -38,9 +55,10 @@ function backspace() {
 function solve(){
    try {
       result = eval(display_string);
+      result = result.toFixed(8);
       if (result!=undefined) {
          document.getElementById("display_number").innerHTML=result;
-      }
+       }
    } catch (error) {
       document.getElementById("display_number").innerHTML="Syntax Error!!";
    }
