@@ -30,21 +30,6 @@ function display(data1, data2){
       }
 };
 
-// function dummy(a) {
-//    switch (a) {
-//       case "Math.PI":
-//          console.log('pi');
-//          break;
-      
-//       case 'Math.sqrt(':
-//          console.log('root');
-//          break;
-   
-//       default:
-//         console.log(a);
-//    }
-// };
-
 function clr(){
    display_value = " "
    document.getElementById("display_number").innerHTML = display_value;
@@ -71,7 +56,4 @@ function solve(){
    } catch (error) {
       document.getElementById("display_number").innerHTML="Syntax Error!!";
    }
-  
-      
-   
 }
