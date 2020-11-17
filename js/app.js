@@ -55,7 +55,7 @@ function backspace() {
 function solve(){
    try {
       result = eval(display_string);
-      result = result.toFixed(8);
+      result = parseFloat(result.toFixed(8));
       if (result!=undefined) {
          document.getElementById("display_number").innerHTML=result;
        }
