@@ -23,7 +23,7 @@ h1{
     height: 12vh;
     text-align: right;
     overflow-x: auto;
-    overflow-y: hidden;
+    overflow-y: auto;
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
 }
@@ -37,6 +37,7 @@ h1{
 
 #display_back{
     color: #fff;
+    font-size: 1px;
 }
 
 .buttons{
