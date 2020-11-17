@@ -35,6 +35,10 @@ h1{
     padding: 1%;
 }
 
+#display_back{
+    color: #fff;
+}
+
 .buttons{
     margin-left: 37%;
     width: 25%;
