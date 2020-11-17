@@ -12,5 +12,5 @@ A JS calculator having
 - (.) decimal point
 - Parentheses
 
-![Calculator Image](https://motasimfoad.com/webasset/calculator/calc.png)
+![Javascript Scientific Calculator Image](https://motasimfoad.com/webasset/calculator/calc.png)
 
